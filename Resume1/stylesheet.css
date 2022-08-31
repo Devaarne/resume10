@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  font-size:100%;
+  background-image:none;
+  background-color:grey;
+  display: flex; 
+  flex-direction: column;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+  
+}
+
+#profilephoto{
+  width: 40%; height: 40%;
+  border-radius: 180%;
+  border: 2px solid whitesmoke;
+}
+
+header {
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(106, 105, 105);
+}
+#heading{
+  font-family: sans-serif;
+  font-size: 110% ;
+  font-color
+}
+
+footer{
+  background-color: ;
+  text-align: center;
+}
+
+#sidebar{
+  width: 20%;
+  background-color: black;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  padding: 0.3rem;
+}
+.nav-menu{
+  list-style-type: none; 
+  padding: 40px;%
+}
+
+.icons{
+  width: 3rem; margin: 0.5rem; height: auto;
+}
+
+h2 {
+  font-size: 40px;
+  background-color: #ccc;
+  margin: 20px;
+  padding: 40px;
+  border-style: groove;
+  border-width: 3px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-color: black;
+  border-radius: 10px 20px 30px 40px;    
+}
+
+.tiledBackground {
+  background-image: url(devaarnecool.jpg),
+  background-size: 150px;
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+  color: orange;
+}
+
+.background-image {
+  background-image: url("C:\Users\27786\Documents\GitHub\Resume1\images\devsilhouette.jpg");
+  background-size: contain;
+  width: 200px;
+  height: 200px ;
+  background-repeat: repeat-y;
+  background-position: center;
+
+}
+
